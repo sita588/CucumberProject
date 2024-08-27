@@ -23,7 +23,6 @@ public class Steps {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://demo.nopcommerce.com/");
 		driver.findElement(By.xpath("//a[normalize-space()='Log in']")).click();
-	    
 	}
 
 	@When("the user enter valid credentials\\(username: {string},password: {string})")
